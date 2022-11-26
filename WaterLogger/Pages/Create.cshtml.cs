@@ -39,6 +39,7 @@ namespace WaterLogger.Pages
 
                 tableCmd.ExecuteNonQuery();
             }
+
             return RedirectToPage("./Index");
         }
     }
